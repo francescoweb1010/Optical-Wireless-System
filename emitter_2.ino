@@ -41,8 +41,6 @@ void loop() {
     // spegni led per un secondo
     // accendi led per 1 secondo
     // spegni definitvamente
-    digitalWrite(8, LOW);
-    delay(500);
     digitalWrite(8, HIGH);
     delay(2000);
     digitalWrite(8, LOW);
